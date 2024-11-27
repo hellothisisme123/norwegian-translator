@@ -58,3 +58,13 @@ html {
     flex-direction: column;
   }
 }
+
+@media screen and (width <= 500px) {
+  * {
+    font-size: 1.5rem;
+  }
+  
+  .norwegian textarea, .english textarea {
+    font-size: 0.75rem;
+  }  
+}
