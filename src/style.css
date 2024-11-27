@@ -22,6 +22,29 @@ html {
   
 }
 
+.norwegian div, .english div {
+  display: flex;
+}
+
+.norwegian div img, .english div img {
+  max-height: 1.3rem;
+  place-self: center;
+  transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1) all;
+  cursor: pointer;
+}
+
+.norwegian div div, .english div div {
+  flex-grow: 1;
+}
+
+.norwegian div img:hover, .english div img:hover {
+  filter: brightness(0.8);
+}
+
+.norwegian div img:active, .english div img:active {
+  scale: 1.1;
+}
+
 .norwegian textarea, .english textarea {
   width: 100%;
   background-color: #333;
